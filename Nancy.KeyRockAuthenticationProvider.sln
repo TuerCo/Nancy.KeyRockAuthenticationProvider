@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{599AA894-613B-488C-B7F4-7FBE2BB960B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.KeyRockAuthenticationProvider", "src\Nancy.KeyRockAuthenticationProvider\Nancy.KeyRockAuthenticationProvider.csproj", "{C9D4E306-76C2-473B-B123-E1A61AD56600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8BFBDA3B-4B11-4B7B-A961-593F4699A9D0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{3E175877-ED61-4FBD-85FC-44A6FF7E2C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAuthentication.Sample.NancyAuto", "sample\SimpleAuthentication.Sample.NancyAuto\SimpleAuthentication.Sample.NancyAuto.csproj", "{C344D22C-5DC0-44E6-8595-D2EF49BF255B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9D4E306-76C2-473B-B123-E1A61AD56600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D4E306-76C2-473B-B123-E1A61AD56600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D4E306-76C2-473B-B123-E1A61AD56600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D4E306-76C2-473B-B123-E1A61AD56600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C344D22C-5DC0-44E6-8595-D2EF49BF255B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C344D22C-5DC0-44E6-8595-D2EF49BF255B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C344D22C-5DC0-44E6-8595-D2EF49BF255B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C344D22C-5DC0-44E6-8595-D2EF49BF255B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9D4E306-76C2-473B-B123-E1A61AD56600} = {599AA894-613B-488C-B7F4-7FBE2BB960B2}
+		{C344D22C-5DC0-44E6-8595-D2EF49BF255B} = {3E175877-ED61-4FBD-85FC-44A6FF7E2C5A}
+	EndGlobalSection
+EndGlobal
